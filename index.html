@@ -6,6 +6,7 @@
   <title>Your Mental Health Website</title>
   <style>
     /* Add your custom CSS styles here */
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -93,6 +94,20 @@
       color: #ffffff;
       text-align: center;
     }
+
+    /* CSS for responsive images */
+    .image-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
+    }
   </style>
 </head>
 <body>
@@ -117,22 +132,26 @@
     <a href="NAMI_2020MH_ByTheNumbers_Youth-r-combined 3.pdf" class="cta-button">Learn More</a>
   </section>
 
-  
+
   <!-- Anxiety Section -->
   <section id="anxiety">
     <h2>Anxiety</h2>
     <p>Anxiety is an emotion characterized by feelings of tension, worried thoughts, and physical changes like increased blood pressure.</p>
     <p>People with anxiety disorders usually have recurring intrusive thoughts or concerns. They may avoid certain situations out of worry. </p>
-    <img src="do-i-have-anxiety-5207282-Final-4bbc1ad0baff4175b9ca76574faa9de6.jpg" alt="">
+    <div class="image-container">
+      <img src="do-i-have-anxiety-5207282-Final-4bbc1ad0baff4175b9ca76574faa9de6.jpg" alt="">
+    </div>
   </section>
-  
+
 
   <!-- Depression Section -->
   <section id="depression">
     <h2>Depression</h2>
     <p>Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.</p>
     <p>Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. </p>
-    <img src="signs-of-depression.png" alt="">
+    <div class="image-container">
+      <img src="signs-of-depression.png" alt="">
+    </div>
   </section>
 
 
@@ -141,8 +160,9 @@
     <h2>Stress Management</h2>
     <p>Stress is an automatic physical, mental and emotional response to a challenging event. It's a normal part of everyone's life. </p>
     <p>When used positively, stress can lead to growth, action and change. But negative, long-term stress can lessen your quality of life.</p>
-    <img src="destress-monday-graphic-5-techniques-for-stress-management.png" alt="">
-
+    <div class="image-container">
+      <img src="destress-monday-graphic-5-techniques-for-stress-management.png" alt="">
+    </div>
   </section>
 
 
@@ -158,7 +178,7 @@
     <h2>Resources</h2>
     <p>Additional mental health resources and links.</p>
   </section>
- 
+
 
   <!-- Footer -->
   <footer>
