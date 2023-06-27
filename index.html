@@ -38,6 +38,13 @@
       font-size: 16px;
     }
 
+    /* Decrease font size for iPhone users */
+    @media only screen and (max-width: 480px) {
+      nav ul li a {
+        font-size: 14px;
+      }
+    }
+
     .hero {
       background-color: #06b0d6;
       padding: 50px;
@@ -181,15 +188,38 @@
   <!-- Resources Section -->
   <section id="resources">
     <h2>Resources</h2>
-    <li><a href="https://www.michigan.gov/coronavirus/resources/mental-health-resources?utm_source=google&utm_medium=cpc&utm_campaign=staywell">Mental Health Resources(Michigan)</a></li>
-    <a>For more resources and information, click "Learn More" or press "Resources" in the tab at the top of the website. </a>
-    <a>To learn about us and our mission, click "About Us" at the top of the website.</a>
+    <li><a href="https://www.crisistextline.org/">Crisis Text Line</a></li>
+    <li><a href="https://www.nimh.nih.gov/">National Institute of Mental Health</a></li>
+    <li><a href="https://www.mentalhealth.gov/">MentalHealth.gov</a></li>
+    <li><a href="https://www.nami.org/">National Alliance on Mental Illness (NAMI)</a></li>
+    <li><a href="https://www.psychiatry.org/">American Psychiatric Association</a></li>
+  </section>
+
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a team dedicated to raising awareness about mental health and providing resources for individuals seeking support.</p>
+    <p>Our goal is to promote mental well-being and help reduce the stigma surrounding mental health challenges.</p>
+  </section>
+
+
+  <!-- Get Help Section -->
+  <section id="get-help">
+    <h2>Get Help</h2>
+    <p>If you or someone you know is in crisis or experiencing a mental health emergency, please seek professional help immediately.</p>
+    <p>Here are some helpline numbers you can reach out to:</p>
+    <ul>
+      <li><strong>National Suicide Prevention Lifeline:</strong> 1-800-273-TALK (8255)</li>
+      <li><strong>Crisis Text Line:</strong> Text "HELLO" to 741741</li>
+      <li><strong>National Helpline:</strong> 1-800-662-HELP (4357)</li>
+    </ul>
   </section>
 
 
   <!-- Footer -->
   <footer>
-    <p>Ved Nakum and Vivaan Shah, 2023</p>
+    <p>&copy; 2023 Your Mental Health Hub. All rights reserved. | Designed by Vivaan Shab and Ved Nakum</p>
   </footer>
 </body>
 </html>
